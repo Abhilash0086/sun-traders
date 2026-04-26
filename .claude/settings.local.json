@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:renacon.in)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(vercel --version)",
+      "Bash(npm --version)",
+      "Bash(winget install *)",
+      "Bash(npm install *)",
+      "Bash(gh repo *)",
+      "Bash(powershell -Command \"& 'C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe' repo create sun-traders --public --source=D:/ST --remote=origin --push 2>&1\")",
+      "Bash(powershell -Command \"cd D:/ST; vercel --yes 2>&1\")",
+      "Bash(powershell -Command \"& npx vercel --cwd D:/ST --yes 2>&1\")"
+    ]
+  }
+}
